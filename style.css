@@ -1,4 +1,4 @@
-body { background-image: url('bg.png'); 
+body { background-image: url('/images/bg.png'); 
     background-size: 100% 100%; 
     background-attachment: fixed; 
     background-repeat: no-repeat; 
