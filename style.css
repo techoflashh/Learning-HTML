@@ -1,4 +1,8 @@
-body { background-image: url('bg.png'); background-size: 100% 100%; background-attachment: fixed; background-repeat: no-repeat;}
+body { background-image: url('bg.png'); 
+    background-size: 100% 100%; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    text-align: center;}
 /* we can also use the background-size:cover 
 it can cover the entire element without streching*/
 h1 {color : blue}
