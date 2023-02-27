@@ -1,6 +1,8 @@
-body { background-color: rgba(0,0,255,0.4);}
+body { background-image: url('bg.png'); background-size: 100% 100%; background-attachment: fixed; background-repeat: no-repeat;}
+/* we can also use the background-size:cover 
+it can cover the entire element without streching*/
 h1 {color : blue}
-p {color : red;font-family: 'Segoe UI';padding: 20px;border: 2px solid black;}
+p {color : red;font-family: 'Segoe UI';padding: 20px;}
 a:link {color : green; background-color: transparent;text-decoration: wavy;}
 a:visited {color : rgb(5, 1, 253); background-color: transparent;text-decoration: wavy;}
 a:hover {color : red; background-color: transparent; text-decoration: wavy;}
