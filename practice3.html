@@ -1,18 +1,23 @@
 <!Doctype html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <title>
-            Page title
+            Practice3
         </title>
     </head>
-    <body style="text-align: center; background-color: rgba(137, 43, 226, 0.79);">
-        <h1 style="background-color:rgba(180, 180, 180, 0.877);">
-            This is a heading.
+    <body>
+        <h1>
+            Using picture tag
         </h1>
-        <p style="background-color: aqua;">
-            This is a paragraph.
+        <p>
+            picture tag is used to display different images depending on the device <br>
         </p>
-
+        <picture>
+            <source media="(min-width:1200px)" srcset="bg.png" style="width: 300px;">
+            <source media="(min-width:650px)" srcset="bgformobile.png" style="width: 200px;">
+            <img src="image1.png" alt="Image1">
+        </picture>
     </body>
 
 </html>
