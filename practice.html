@@ -30,7 +30,8 @@
         <a href="#Address">Go To Address <br></a>
         <a href="#Cite">Go To Cite For Work <br></a>
         <a href="#bdo">Go To bdo <br></a>
-        <a href="#Border">Go To Border</a>
+        <a href="#Border">Go To Border <br></a>
+        <a href="#float">Go To Float <br></a>
 
         <p><i>This is the first      webpage without 
             looking any reference <br> this page will include basics, 
@@ -112,12 +113,22 @@
         <a href="practice2.html" target="_blank">Practice2</a>
         <br>
         <!-- Using image as Hyperlink -->
-        <a href="https://github.com/techoflashh" target="_blank"><img src="images/github.png" alt="Github" height="50"></a>
+        <a href="https://github.com/techoflashh" target="_blank" onclick="myfunction()"><img src="images/github.png" alt="Github" height="50"></a>
         <hr>
         <!-- Link to and email address -->
+        <script>
+            function myfunction(){
+                alert("You clicked to github image this will lead you to the github page")
+            }
+        </script>
         <a href="mailto:hy815089@gmail.com">Mail to Himanshu</a>
         <br>
         <button onclick="document.location='https://github.com/techoflashh'">Github</button>
-        
+        <h1 id="float">Using Float</h1>
+        <h2>Float Right</h2>
+        <p><img src="/images/github.png" alt="bg" style="float:right;width:100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. doloribus eveniet, placeat voluptate explicabo aliquid sit recusandae corporis autem dolore! Repellat maxime omnis quae facere nulla! Quas consequuntur expedita perspiciatis exercitationem, consectetur ab, consequatur molestias quaerat nihil inventore at, asperiores dolorem! Beatae impedit molestias possimus amet iusto, labore minima quibusdam? Nihil necessitatibus atque illo veniam suscipit culpa. Quaerat accusamus laudantium aliquid earum. Porro impedit nam ipsum cum atque eum doloribus, aperiam perferendis temporibus quam deleniti odio sunt nostrum rerum ad a reiciendis dolores, dolor quaerat aut. Cumque doloremque laborum repellat ad amet asperiores illo ullam delectus aliquam.</p>
+        <h2>Float Left</h2>
+        <p><img src="/images/github.png" alt="bg" style="float:left;width:100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. doloribus eveniet, placeat voluptate explicabo aliquid sit recusandae corporis autem dolore! Repellat maxime omnis quae facere nulla! Quas consequuntur expedita perspiciatis exercitationem, consectetur ab, consequatur molestias quaerat nihil inventore at, asperiores dolorem! Beatae impedit molestias possimus amet iusto, labore minima quibusdam? Nihil necessitatibus atque illo veniam suscipit culpa. Quaerat accusamus laudantium aliquid earum. Porro impedit nam ipsum cum atque eum doloribus, aperiam perferendis temporibus quam deleniti odio sunt nostrum rerum ad a reiciendis dolores, dolor quaerat aut. Cumque doloremque laborum repellat ad amet asperiores illo ullam delectus aliquam.</p>
+
     </body>
 </html>
