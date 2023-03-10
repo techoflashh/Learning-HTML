@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-    body { background-image: url('images/bg.png'); background-size: 100% 100%; background-attachment: fixed; background-repeat: no-repeat;
-    text-align: center;}
-    h1 {color : blue}
-    p {color : red}
-    a:link , a:visited {
-        padding: 15px 25px;
-        background-color: rgb(187, 51, 51);
-        display: inline-block;
-        color: aquamarine;
-        text-decoration: dashed;
-        margin: 20px;
-    }
-    a:hover,a:active {background-color:red;}
-</style>
-<link rel="icon" type="image/x-icon" href="images/favicon.ico" >
-<title>Learning HTML</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Auther" content="Himanshu">
+    <style>
+        body {
+            background-image: url('images/bg.png');
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            text-align: center;
+        }
+
+        h1 {
+            color: blue
+        }
+
+        p {
+            color: red
+        }
+
+        a:link,
+        a:visited {
+            padding: 15px 25px;
+            background-color: rgb(187, 51, 51);
+            display: inline-block;
+            color: aquamarine;
+            text-decoration: dashed;
+            margin: 20px;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Learning HTML</title>
 
 </head>
+
 <body>
 
-<h1>My First Heading</h1>
-<h2>this second Heading</h2>
-<h3>this is the third Heading</h3>
-<h4> This is the fourth Heading</h4>
-<p><b><i> My first paragraph. </i></b></p>
-<p>This is another paragraph.<br>This paragraph is using 'br' tag which breaks line </p>
+    <h1>My First Heading</h1>
+    <h2>this second Heading</h2>
+    <h3>this is the third Heading</h3>
+    <h4> This is the fourth Heading</h4>
+    <p><b><i> My first paragraph. </i></b></p>
+    <p>This is another paragraph.<br>This paragraph is using 'br' tag which breaks line </p>
 
-<a href="https://github.com/techoflashh"> My github link</a>
-<br>
+    <a href="https://github.com/techoflashh"> My github link</a>
+    <br>
+    <button onclick="document.getElementById('time').innerHTML= Date()">Get Date and Time</button>
+    <p id="time"></p>
+    <br>
+    <img src="images/image1.png" alt="Not found" height="100" width="100">
+    <br>
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="Not found" height="300">
 
-<img src="images/image1.png" alt="Not found" height="100" width="100">
-<br>
-<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="Not found" height="300">
+    <p style="color:red;"> This is red paragraph</p>
+    <p style="color:rgb(0, 0, 255);"> This is Blue paragraph</p>
+    <p style="color:rgb(6, 59, 59);"> This is a rgb pargraph</p>
 
-<p style="color:red;"> This is red paragraph</p>
-<p style="color:rgb(0, 0, 255);"> This is Blue paragraph</p>
-<p style="color:rgb(6, 59, 59);"> This is a rgb pargraph</p>
+    <!-- link as a button -->
+    <a href="practice.html" target="_blank">Practice</a>
+    <a href="practice2.html" target="_blank">Practice2</a>
+    <a href="practice3.html" target="_blank">Practice3</a>
+    <a href="newfile.html" target="_blank">Newfile</a>
 
-<!-- link as a button -->
-<a href="practice.html" target="_blank">Practice</a>
-<a href="practice2.html" target="_blank">Practice2</a>
-<a href="practice3.html" target="_blank">Practice3</a>
-
-<h1>Iframe</h1>
-<iframe src="practice.html" title="practice" name="inframe_p" style="height:400px; width:700px; border: 3px solid red;"></iframe>
-<br>
-<a href="practice.html" target="inframe_p">Practice</a>
-<a href="practice2.html" target="inframe_p">Practice2</a>
-<a href="practice3.html" target="inframe_p">Practice3</a>
+    <h1>Iframe</h1>
+    <iframe src="practice.html" title="practice" name="inframe_p"
+        style="height:400px; width:700px; border: 3px solid red;"></iframe>
+    <br>
+    <a href="practice.html" target="inframe_p">Practice</a>
+    <a href="practice2.html" target="inframe_p">Practice2</a>
+    <a href="practice3.html" target="inframe_p">Practice3</a>
+    <a href="newfile.html" target="inframe_p">Newfile</a>
 </body>
+
 </html>
